@@ -7,14 +7,27 @@
 ## Install
 
 ```
-$ npm install --global win-screenoff
+$ npm i -g win-screenoff
 ```
 
 
 ## Usage
 
+In your shell:
+
 ```
 $ screenoff
+```
+
+In your code:
+
+```js
+const screenoff = require('win-screenoff')
+
+const main = async () => {
+  await screenoff()
+}
+main()
 ```
 
 
