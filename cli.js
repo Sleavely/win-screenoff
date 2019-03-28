@@ -1,0 +1,4 @@
+
+const screenoff = require('.')
+
+screenoff()

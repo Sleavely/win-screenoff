@@ -1,0 +1,32 @@
+{
+  "name": "win-screenoff",
+  "version": "0.0.1",
+  "description": "A CLI tool for turning putting the monitor to sleep on Windows.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "screen",
+    "monitor",
+    "sleep",
+    "powershell",
+    "windows",
+    "winapi"
+  ],
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "license": "MIT",
+  "repository": "github:Sleavely/win-screenoff",
+  "dependencies": {
+    "powershell": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
