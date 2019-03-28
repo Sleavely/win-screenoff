@@ -2,6 +2,7 @@
 
 > NodeJS module/CLI for putting your Windows 10 monitor to sleep through PowerShell
 
+[Github](https://github.com/Sleavely/win-screenoff) | [NPM](https://www.npmjs.com/package/win-screenoff) | [Travis](https://travis-ci.org/Sleavely/win-screenoff)
 
 ## Install
 
