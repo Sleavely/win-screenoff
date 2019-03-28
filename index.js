@@ -4,7 +4,7 @@ const PowerShell = require('powershell')
 module.exports = exports = () => {
   return new Promise((resolve, reject) => {
     // Turn display off by calling WindowsAPI.
-    // SendMessage(HWND_BROADCAST,WM_SYSCOMMAND, SC_MONITORPOWER, POWER_OFF)
+    // SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, POWER_OFF)
     // HWND_BROADCAST  0xffff
     // WM_SYSCOMMAND   0x0112
     // SC_MONITORPOWER 0xf170
