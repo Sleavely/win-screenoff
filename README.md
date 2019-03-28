@@ -13,13 +13,13 @@ $ npm i -g win-screenoff
 
 ## Usage
 
-In your shell:
+Through CLI:
 
 ```
 $ screenoff
 ```
 
-In your code:
+As a module:
 
 ```js
 const screenoff = require('win-screenoff')
