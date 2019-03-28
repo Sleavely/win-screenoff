@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A CLI tool for turning putting the monitor to sleep on Windows.",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "screenoff": "cli.js"
+  },
   "scripts": {
     "test": "eslint ."
   },
